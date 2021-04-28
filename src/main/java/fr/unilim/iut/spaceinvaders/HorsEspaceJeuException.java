@@ -1,9 +1,10 @@
 package fr.unilim.iut.spaceinvaders;
 
-public class HorsEspaceJeuException extends Exception {
+@SuppressWarnings("serial")
+class HorsEspaceJeuException extends RuntimeException {
 
-	public HorsEspaceJeuException(String message) {
-		super(message);
-	}
+    public HorsEspaceJeuException(String message) {
+	    super(message);
+    }
 
 }

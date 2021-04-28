@@ -1,6 +1,6 @@
     package fr.unilim.iut.spaceinvaders;
-  
-    public class SpaceInvaders {
+
+public class SpaceInvaders {
 
     	private static final char MARQUE_FIN_LIGNE = '\n';
 		private static final char MARQUE_VIDE = '.';
@@ -47,7 +47,7 @@
 			return vaisseau!=null;
 		}
 
-		public void positionnerUnNouveauVaisseau(int x, int y) throws HorsEspaceJeuException {
+		public void positionnerUnNouveauVaisseau(int x, int y) {
 			
 			if (x >= longueur)
 				throw new HorsEspaceJeuException("Vous êtes en dehors de l'espace jeu");
