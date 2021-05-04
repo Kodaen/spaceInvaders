@@ -52,8 +52,5 @@ Pas de remarque particulière
 
 * **Missile** :  projectile envoyé à la verticale par le vaisseau vers l'envahisseur dans le but de le détruire.
 
-La définition des termes métiers relatifs au projet doit se trouver dans le glossaire 
-Ce glossaire doit être compléter au fil des séances...
-
 ------------- 
 
