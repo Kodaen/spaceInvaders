@@ -25,11 +25,11 @@ Pareil, sauf que cette fois il faut le déplacer vers la gauche
 Les deux premières stories ont déjà été réalisées.
 
 ### Diagramme de classes 
-![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine1.png)
+![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine2.png)
 
 
 ### Nuage de mots 
-![Nuage de mots de la semaine 1](images/NuageMots_Semaine1.png)
+![Nuage de mots de la semaine 1](images/NuageMots_Semaine2.png)
 
 
 ### Difficultés rencontrées 
