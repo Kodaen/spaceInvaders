@@ -1,12 +1,39 @@
 # Space Invaders 
 
+- [Semaine n°3 : du 3 juin au 9 juin](#semaine3)
 - [Semaine n°2 : du 26 avril au 2 juin ](#semaine2)  
 - [Glossaire](#glossaire)
 
+
+## Semaine n°3 : du 3 juin au 9 juin] <a id="semaine3"></a>
+
+
+### Sprints et fonctionnalités réalisées 
+Fonctionnalité n°1 :  Déplacer un vaisseau dans l'espace de Jeu qui consiste à :
+
+### Fonctionnalité en cours d'implémentation 
+Fonctionnalité n°2 :  Déplacer un vaisseau dans l'espace de Jeu qui consiste à :
+
+*à venir*
+
+### Diagramme de classes 
+![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine3.png)
+
+
+### Nuage de mots 
+![Nuage de mots de la semaine 1](images/NuageMots_Semaine3.png)
+
+
+### Difficultés rencontrées 
+Aucune
+
+### Remarques diverses
+Pas de remarque particulière
+
+------------- 
+
+
 ## Semaine n°2 : du 26 avril au 2 juin <a id="semaine2"></a>
-
-Reprendre les rubriques de la semaine précédente et les compléter avec le travail réalisé cette semaine
-
 
 ### Sprints et fonctionnalités réalisées 
 
