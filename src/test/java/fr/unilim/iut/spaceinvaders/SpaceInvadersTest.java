@@ -92,26 +92,6 @@ public class SpaceInvadersTest {
 	}
 	    
 	    @Test
-		public void test_VaisseauAvance_DeplacerVaisseauVersLaGauche() {
-			
-			spaceinvaders.positionnerUnNouveauVaisseau(1,1,7,9);
-
-			spaceinvaders.deplacerVaisseauVersLaGauche();
-			
-			assertEquals("" + 
-			"...............\n" + 
-			"...............\n" +
-			"...............\n" + 
-			"...............\n" + 
-			"...............\n" + 
-			"...............\n" + 
-			"...............\n" + 
-			"...............\n" + 
-			"...............\n" + 
-			"......V........\n" , spaceinvaders.recupererEspaceJeuDansChaineASCII());
-		}
-	    
-	    @Test
 		public void test_unNouveauVaisseauAvecDimensionEstCorrectementPositionneDansEspaceJeu() {
 			spaceinvaders.positionnerUnNouveauVaisseau(3,2,7,9);
 			assertEquals("" + 
@@ -181,5 +161,46 @@ public class SpaceInvadersTest {
 			"............VVV\n" , spaceinvaders.recupererEspaceJeuDansChaineASCII());
 		}
 	    
+	    @Test
+		public void test_VaisseauAvance_DeplacerVaisseauVersLaGauche() {
+			
+			spaceinvaders.positionnerUnNouveauVaisseau(3,2,7,9);
+			spaceinvaders.deplacerVaisseauVersLaGauche();
+		
+			assertEquals("" + 
+			"...............\n" + 
+			"...............\n" +
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"......VVV......\n" + 
+			"......VVV......\n" , spaceinvaders.recupererEspaceJeuDansChaineASCII());
+	    }
+	    
 
+		@Test
+		public void test_VaisseauAvecDimensionImmobile_DeplacerVaisseauVersLaGauche() {
+			
+			spaceinvaders.positionnerUnNouveauVaisseau(3,2,0,9);
+			spaceinvaders.deplacerVaisseauVersLaGauche();
+			
+			assertEquals("" + 
+			"...............\n" + 
+			"...............\n" +
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"...............\n" + 
+			"VVV............\n" + 
+			"VVV............\n" , spaceinvaders.recupererEspaceJeuDansChaineASCII());
+		}
+		
+
+
+	    
 }
