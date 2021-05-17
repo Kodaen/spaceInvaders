@@ -5,7 +5,7 @@
 - [Glossaire](#glossaire)
 
 
-## Semaine n°3 : du 3 juin au 9 juin] <a id="semaine3"></a>
+## Semaine n°3 : du 3 juin au 9 juin <a id="semaine3"></a>
 
 
 ### Sprints et fonctionnalités réalisées 
