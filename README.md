@@ -12,9 +12,14 @@
 Fonctionnalité n°1 :  Déplacer un vaisseau dans l'espace de Jeu qui consiste à :
 
 ### Fonctionnalité en cours d'implémentation 
-Fonctionnalité n°2 :  Déplacer un vaisseau dans l'espace de Jeu qui consiste à :
+Fonctionnalité n°2 :  Dimensionner le vaisseau qui consiste à :
 
-*à venir*
+-positionner un nouveau vanisseau avec une dimension donnée
+
+-faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu
+
+-déplacer un vaisseau en tenant compte de sa dimension
+
 
 ### Diagramme de classes 
 ![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine3.png)
