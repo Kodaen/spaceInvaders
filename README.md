@@ -1,9 +1,42 @@
 # Space Invaders 
-
+- [Semaine n°4 : du 10 juin au 16 juin](#semaine4)
 - [Semaine n°3 : du 3 juin au 9 juin](#semaine3)
 - [Semaine n°2 : du 26 avril au 2 juin ](#semaine2)  
 - [Glossaire](#glossaire)
 
+
+## Semaine n°4 : du 3 juin au 9 juin <a id="semaine4"></a>
+
+
+### Sprints et fonctionnalités réalisées 
+Fonctionnalité n°1 :  Déplacer un vaisseau dans l'espace de Jeu qui consiste à :
+
+### Fonctionnalité en cours d'implémentation 
+Fonctionnalité n°2 :  Dimensionner le vaisseau qui consiste à :
+
+-positionner un nouveau vanisseau avec une dimension donnée
+
+-faire en sorte qu'il soit impossible de positionner un nouveau vaisseau qui déborde de l'espace de jeu
+
+-déplacer un vaisseau en tenant compte de sa dimension
+
+toutes les stories ont été faites, il ne manque plus que le refactoring
+
+### Diagramme de classes 
+![Diagrammes de classes de la semaine 1](images/DiagrammeClasses_Semaine4.png)
+
+
+### Nuage de mots 
+![Nuage de mots de la semaine 1](images/NuageMots_Semaine4.png)
+
+
+### Difficultés rencontrées 
+Aucune
+
+### Remarques diverses
+Pas de remarque particulière
+
+------------- 
 
 ## Semaine n°3 : du 3 juin au 9 juin <a id="semaine3"></a>
 
